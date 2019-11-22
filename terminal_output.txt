@@ -1,0 +1,522 @@
+MacBook-Air:acceptance_test david$ cd ../address_book/
+MacBook-Air:address_book david$ ionic info
+
+Ionic:
+
+   Ionic CLI                     : 5.4.6 (/Users/david/.nvm/versions/node/v12.7.0/lib/node_modules/ionic)
+   Ionic Framework               : @ionic/angular 4.11.5
+   @angular-devkit/build-angular : 0.801.3
+   @angular-devkit/schematics    : 8.1.3
+   @angular/cli                  : 8.1.3
+   @ionic/angular-toolkit        : 2.1.1
+
+Cordova:
+
+   Cordova CLI       : 9.0.0 (cordova-lib@9.0.1)
+   Cordova Platforms : android 8.1.0, ios 5.0.1
+   Cordova Plugins   : cordova-plugin-ionic-keyboard 2.2.0, cordova-plugin-ionic-webview 4.1.3, (and 4 other plugins)
+
+Utility:
+
+   cordova-res : not installed
+   native-run  : 0.2.9 
+
+System:
+
+   Android SDK Tools : 26.1.1 (/Users/david/Library/Android/sdk)
+   ios-sim           : 8.0.2
+   NodeJS            : v12.7.0 (/Users/david/.nvm/versions/node/v12.7.0/bin/node)
+   npm               : 6.10.0
+   OS                : macOS High Sierra
+   Xcode             : Xcode 10.1 Build version 10B61
+MacBook-Air:address_book david$ npm i
+
+> fsevents@1.2.9 install /Users/david/WIP/ATIA/address_book/node_modules/@angular/compiler-cli/node_modules/fsevents
+> node install
+
+node-pre-gyp WARN Using request for node-pre-gyp https download 
+[fsevents] Success: "/Users/david/WIP/ATIA/address_book/node_modules/@angular/compiler-cli/node_modules/fsevents/lib/binding/Release/node-v72-darwin-x64/fse.node" is installed via remote
+
+> fsevents@1.2.9 install /Users/david/WIP/ATIA/address_book/node_modules/karma/node_modules/fsevents
+> node install
+
+node-pre-gyp WARN Using request for node-pre-gyp https download 
+[fsevents] Success: "/Users/david/WIP/ATIA/address_book/node_modules/karma/node_modules/fsevents/lib/binding/Release/node-v72-darwin-x64/fse.node" is installed via remote
+
+> fsevents@1.2.9 install /Users/david/WIP/ATIA/address_book/node_modules/watchpack/node_modules/fsevents
+> node install
+
+node-pre-gyp WARN Using request for node-pre-gyp https download 
+[fsevents] Success: "/Users/david/WIP/ATIA/address_book/node_modules/watchpack/node_modules/fsevents/lib/binding/Release/node-v72-darwin-x64/fse.node" is installed via remote
+
+> fsevents@1.2.9 install /Users/david/WIP/ATIA/address_book/node_modules/webpack-dev-server/node_modules/fsevents
+> node install
+
+node-pre-gyp WARN Using request for node-pre-gyp https download 
+[fsevents] Success: "/Users/david/WIP/ATIA/address_book/node_modules/webpack-dev-server/node_modules/fsevents/lib/binding/Release/node-v72-darwin-x64/fse.node" is installed via remote
+
+> core-js@3.1.4 postinstall /Users/david/WIP/ATIA/address_book/node_modules/@angular-devkit/build-angular/node_modules/core-js
+> node scripts/postinstall || echo "ignore"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon: 
+> https://opencollective.com/core-js 
+> https://www.patreon.com/zloirock 
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+
+> @angular/cli@8.1.3 postinstall /Users/david/WIP/ATIA/address_book/node_modules/@angular/cli
+> node ./bin/postinstall/script.js
+
+added 1310 packages from 1053 contributors and audited 17562 packages in 55.051s
+found 2 high severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
+MacBook-Air:address_book david$ ionic cordova build android 
+> ng run app:ionic-cordova-build --platform=android
+                                                                                                                                                  
+chunk {0} 0-es2015.js, 0-es2015.js.map () 13.2 kB  [rendered]
+chunk {1} 1-es2015.js, 1-es2015.js.map () 20 kB  [rendered]
+chunk {2} 2-es2015.js, 2-es2015.js.map () 17 kB  [rendered]
+chunk {3} 3-es2015.js, 3-es2015.js.map () 31.1 kB  [rendered]
+chunk {4} 4-es2015.js, 4-es2015.js.map () 31.1 kB  [rendered]
+chunk {5} 5-es2015.js, 5-es2015.js.map () 57.3 kB  [rendered]
+chunk {6} 6-es2015.js, 6-es2015.js.map () 56.1 kB  [rendered]
+chunk {7} 7-es2015.js, 7-es2015.js.map () 4.6 kB  [rendered]
+chunk {8} 8-es2015.js, 8-es2015.js.map () 4.65 kB  [rendered]
+chunk {9} 9-es2015.js, 9-es2015.js.map () 9.43 kB  [rendered]
+chunk {10} 10-es2015.js, 10-es2015.js.map () 9.98 kB  [rendered]
+chunk {11} 11-es2015.js, 11-es2015.js.map () 3.71 kB  [rendered]
+chunk {12} 12-es2015.js, 12-es2015.js.map () 3.71 kB  [rendered]
+chunk {13} 13-es2015.js, 13-es2015.js.map () 22.7 kB  [rendered]
+chunk {14} 14-es2015.js, 14-es2015.js.map () 22.9 kB  [rendered]
+chunk {15} 15-es2015.js, 15-es2015.js.map () 12 kB  [rendered]
+chunk {16} 16-es2015.js, 16-es2015.js.map () 11.6 kB  [rendered]
+chunk {17} 17-es2015.js, 17-es2015.js.map () 8.4 kB  [rendered]
+chunk {18} 18-es2015.js, 18-es2015.js.map () 8.52 kB  [rendered]
+chunk {19} 19-es2015.js, 19-es2015.js.map () 5.62 kB  [rendered]
+chunk {20} 20-es2015.js, 20-es2015.js.map () 5.61 kB  [rendered]
+chunk {21} 21-es2015.js, 21-es2015.js.map () 15.9 kB  [rendered]
+chunk {22} 22-es2015.js, 22-es2015.js.map () 66.2 kB  [rendered]
+chunk {23} 23-es2015.js, 23-es2015.js.map () 65.9 kB  [rendered]
+chunk {24} 24-es2015.js, 24-es2015.js.map () 19 kB  [rendered]
+chunk {25} 25-es2015.js, 25-es2015.js.map () 18.1 kB  [rendered]
+chunk {26} 26-es2015.js, 26-es2015.js.map () 3.43 kB  [rendered]
+chunk {27} 27-es2015.js, 27-es2015.js.map () 12.6 kB  [rendered]
+chunk {28} 28-es2015.js, 28-es2015.js.map () 12.6 kB  [rendered]
+chunk {29} 29-es2015.js, 29-es2015.js.map () 14.4 kB  [rendered]
+chunk {30} 30-es2015.js, 30-es2015.js.map () 14.3 kB  [rendered]
+chunk {31} 31-es2015.js, 31-es2015.js.map () 25.7 kB  [rendered]
+chunk {32} 32-es2015.js, 32-es2015.js.map () 25.6 kB  [rendered]
+chunk {33} 33-es2015.js, 33-es2015.js.map () 39.3 kB  [rendered]
+chunk {34} 34-es2015.js, 34-es2015.js.map () 42.8 kB  [rendered]
+chunk {35} 35-es2015.js, 35-es2015.js.map () 13.1 kB  [rendered]
+chunk {36} 36-es2015.js, 36-es2015.js.map () 12.8 kB  [rendered]
+chunk {37} 37-es2015.js, 37-es2015.js.map () 32 kB  [rendered]
+chunk {38} 38-es2015.js, 38-es2015.js.map () 32.1 kB  [rendered]
+chunk {39} 39-es2015.js, 39-es2015.js.map () 14.9 kB  [rendered]
+chunk {40} 40-es2015.js, 40-es2015.js.map () 14.9 kB  [rendered]
+chunk {41} 41-es2015.js, 41-es2015.js.map () 37.5 kB  [rendered]
+chunk {42} 42-es2015.js, 42-es2015.js.map () 20.5 kB  [rendered]
+chunk {43} 43-es2015.js, 43-es2015.js.map () 19.8 kB  [rendered]
+chunk {44} 44-es2015.js, 44-es2015.js.map () 12.6 kB  [rendered]
+chunk {45} 45-es2015.js, 45-es2015.js.map () 12.6 kB  [rendered]
+chunk {46} 46-es2015.js, 46-es2015.js.map () 12 kB  [rendered]
+chunk {47} 47-es2015.js, 47-es2015.js.map () 12.2 kB  [rendered]
+chunk {48} 48-es2015.js, 48-es2015.js.map () 20.5 kB  [rendered]
+chunk {49} 49-es2015.js, 49-es2015.js.map () 21.9 kB  [rendered]
+chunk {50} 50-es2015.js, 50-es2015.js.map () 18.3 kB  [rendered]
+chunk {51} 51-es2015.js, 51-es2015.js.map () 18.3 kB  [rendered]
+chunk {52} 52-es2015.js, 52-es2015.js.map () 12.6 kB  [rendered]
+chunk {53} 53-es2015.js, 53-es2015.js.map () 12.6 kB  [rendered]
+chunk {54} 54-es2015.js, 54-es2015.js.map () 6.49 kB  [rendered]
+chunk {55} 55-es2015.js, 55-es2015.js.map () 24.4 kB  [rendered]
+chunk {56} 56-es2015.js, 56-es2015.js.map () 26.4 kB  [rendered]
+chunk {57} 57-es2015.js, 57-es2015.js.map () 23.9 kB  [rendered]
+chunk {58} 58-es2015.js, 58-es2015.js.map () 15.4 kB  [rendered]
+chunk {59} 59-es2015.js, 59-es2015.js.map () 15.1 kB  [rendered]
+chunk {60} 60-es2015.js, 60-es2015.js.map () 21.9 kB  [rendered]
+chunk {61} 61-es2015.js, 61-es2015.js.map () 21.9 kB  [rendered]
+chunk {62} 62-es2015.js, 62-es2015.js.map () 36.6 kB  [rendered]
+chunk {63} 63-es2015.js, 63-es2015.js.map () 36.6 kB  [rendered]
+chunk {64} 64-es2015.js, 64-es2015.js.map () 10.8 kB  [rendered]
+chunk {65} 65-es2015.js, 65-es2015.js.map () 6.92 kB  [rendered]
+chunk {66} 66-es2015.js, 66-es2015.js.map () 6.92 kB  [rendered]
+chunk {67} 67-es2015.js, 67-es2015.js.map () 14.2 kB  [rendered]
+chunk {68} 68-es2015.js, 68-es2015.js.map () 14.4 kB  [rendered]
+chunk {69} 69-es2015.js, 69-es2015.js.map () 8.34 kB  [rendered]
+chunk {70} 70-es2015.js, 70-es2015.js.map () 1.84 kB  [rendered]
+chunk {71} 71-es2015.js, 71-es2015.js.map () 12.4 kB  [rendered]
+chunk {72} 72-es2015.js, 72-es2015.js.map () 12.4 kB  [rendered]
+chunk {73} 73-es2015.js, 73-es2015.js.map () 18.1 kB  [rendered]
+chunk {74} 74-es2015.js, 74-es2015.js.map () 18.7 kB  [rendered]
+chunk {75} 75-es2015.js, 75-es2015.js.map () 11 kB  [rendered]
+chunk {76} 76-es2015.js, 76-es2015.js.map () 10.9 kB  [rendered]
+chunk {77} 77-es2015.js, 77-es2015.js.map () 20.2 kB  [rendered]
+chunk {common} common-es2015.js, common-es2015.js.map (common) 24.8 kB  [rendered]
+chunk {cordova} cordova.js, cordova.js.map (cordova) 63.5 kB [entry] [rendered]
+chunk {core-js-js} core-js-js-es2015.js, core-js-js-es2015.js.map (core-js-js) 78.7 kB  [rendered]
+chunk {css-shim-206ea950-3169f23e-js} css-shim-206ea950-3169f23e-js-es2015.js, css-shim-206ea950-3169f23e-js-es2015.js.map (css-shim-206ea950-3169f23e-js) 21.9 kB  [rendered]
+chunk {dom-96781eef-a2fb04dd-js} dom-96781eef-a2fb04dd-js-es2015.js, dom-96781eef-a2fb04dd-js-es2015.js.map (dom-96781eef-a2fb04dd-js) 19.8 kB  [rendered]
+chunk {dom-js} dom-js-es2015.js, dom-js-es2015.js.map (dom-js) 20.2 kB  [rendered]
+chunk {focus-visible-70713a0c-js} focus-visible-70713a0c-js-es2015.js, focus-visible-70713a0c-js-es2015.js.map (focus-visible-70713a0c-js) 2.16 kB  [rendered]
+chunk {hardware-back-button-5afe3cb0-js} hardware-back-button-5afe3cb0-js-es2015.js, hardware-back-button-5afe3cb0-js-es2015.js.map (hardware-back-button-5afe3cb0-js) 2.07 kB  [rendered]
+chunk {index-69c37885-js} index-69c37885-js-es2015.js, index-69c37885-js-es2015.js.map (index-69c37885-js) 37.7 kB  [rendered]
+chunk {input-shims-a4fc53ac-js} input-shims-a4fc53ac-js-es2015.js, input-shims-a4fc53ac-js-es2015.js.map (input-shims-a4fc53ac-js) 13.5 kB  [rendered]
+chunk {ios-transition-071bd421-js} ios-transition-071bd421-js-es2015.js, ios-transition-071bd421-js-es2015.js.map (ios-transition-071bd421-js) 26.4 kB  [rendered]
+chunk {main} main-es2015.js, main-es2015.js.map (main) 22.8 kB [initial] [rendered]
+chunk {md-transition-15a81b08-js} md-transition-15a81b08-js-es2015.js, md-transition-15a81b08-js-es2015.js.map (md-transition-15a81b08-js) 3.92 kB  [rendered]
+chunk {pages-contact-details-contact-details-module} pages-contact-details-contact-details-module-es2015.js, pages-contact-details-contact-details-module-es2015.js.map (pages-contact-details-contact-details-module) 9.37 kB  [rendered]
+chunk {pages-contact-list-contact-list-module} pages-contact-list-contact-list-module-es2015.js, pages-contact-list-contact-list-module-es2015.js.map (pages-contact-list-contact-list-module) 8.24 kB  [rendered]
+chunk {polyfills} polyfills-es2015.js, polyfills-es2015.js.map (polyfills) 278 kB [initial] [rendered]
+chunk {runtime} runtime-es2015.js, runtime-es2015.js.map (runtime) 9.85 kB [entry] [rendered]
+chunk {shadow-css-4889ae62-23996f3f-js} shadow-css-4889ae62-23996f3f-js-es2015.js, shadow-css-4889ae62-23996f3f-js-es2015.js.map (shadow-css-4889ae62-23996f3f-js) 14.8 kB  [rendered]
+chunk {status-tap-a0df8284-js} status-tap-a0df8284-js-es2015.js, status-tap-a0df8284-js-es2015.js.map (status-tap-a0df8284-js) 1.8 kB  [rendered]
+chunk {styles} styles-es2015.js, styles-es2015.js.map (styles) 109 kB [initial] [rendered]
+chunk {swipe-back-35ad8e37-js} swipe-back-35ad8e37-js-es2015.js, swipe-back-35ad8e37-js-es2015.js.map (swipe-back-35ad8e37-js) 2.69 kB  [rendered]
+chunk {swiper-bundle-ccdaac54-js} swiper-bundle-ccdaac54-js-es2015.js, swiper-bundle-ccdaac54-js-es2015.js.map (swiper-bundle-ccdaac54-js) 176 kB  [rendered]
+chunk {tap-click-ca00ce7f-js} tap-click-ca00ce7f-js-es2015.js, tap-click-ca00ce7f-js-es2015.js.map (tap-click-ca00ce7f-js) 6.38 kB  [rendered]
+chunk {vendor} vendor-es2015.js, vendor-es2015.js.map (vendor) 4.48 MB [initial] [rendered]
+Date: 2019-11-22T14:48:22.376Z - Hash: bcad15dce1fa6447f80a - Time: 27532ms
+                                                                                                                                                      
+chunk {0} 0-es5.js, 0-es5.js.map () 15.4 kB  [rendered]
+chunk {1} 1-es5.js, 1-es5.js.map () 15.2 kB  [rendered]
+chunk {2} 2-es5.js, 2-es5.js.map () 16.3 kB  [rendered]
+chunk {3} 3-es5.js, 3-es5.js.map () 21.8 kB  [rendered]
+chunk {4} 4-es5.js, 4-es5.js.map () 18.9 kB  [rendered]
+chunk {5} 5-es5.js, 5-es5.js.map () 32.5 kB  [rendered]
+chunk {6} 6-es5.js, 6-es5.js.map () 32.5 kB  [rendered]
+chunk {7} 7-es5.js, 7-es5.js.map () 70.3 kB  [rendered]
+chunk {8} 8-es5.js, 8-es5.js.map () 69.1 kB  [rendered]
+chunk {9} 9-es5.js, 9-es5.js.map () 5.19 kB  [rendered]
+chunk {10} 10-es5.js, 10-es5.js.map () 5.25 kB  [rendered]
+chunk {11} 11-es5.js, 11-es5.js.map () 11.3 kB  [rendered]
+chunk {12} 12-es5.js, 12-es5.js.map () 11.9 kB  [rendered]
+chunk {13} 13-es5.js, 13-es5.js.map () 4.12 kB  [rendered]
+chunk {14} 14-es5.js, 14-es5.js.map () 4.12 kB  [rendered]
+chunk {15} 15-es5.js, 15-es5.js.map () 24.4 kB  [rendered]
+chunk {16} 16-es5.js, 16-es5.js.map () 24.6 kB  [rendered]
+chunk {17} 17-es5.js, 17-es5.js.map () 13.2 kB  [rendered]
+chunk {18} 18-es5.js, 18-es5.js.map () 12.8 kB  [rendered]
+chunk {19} 19-es5.js, 19-es5.js.map () 9.27 kB  [rendered]
+chunk {20} 20-es5.js, 20-es5.js.map () 9.4 kB  [rendered]
+chunk {21} 21-es5.js, 21-es5.js.map () 5.85 kB  [rendered]
+chunk {22} 22-es5.js, 22-es5.js.map () 5.84 kB  [rendered]
+chunk {23} 23-es5.js, 23-es5.js.map () 16.9 kB  [rendered]
+chunk {24} 24-es5.js, 24-es5.js.map () 72.1 kB  [rendered]
+chunk {25} 25-es5.js, 25-es5.js.map () 71.8 kB  [rendered]
+chunk {26} 26-es5.js, 26-es5.js.map () 21.2 kB  [rendered]
+chunk {27} 27-es5.js, 27-es5.js.map () 20.3 kB  [rendered]
+chunk {28} 28-es5.js, 28-es5.js.map () 4.1 kB  [rendered]
+chunk {29} 29-es5.js, 29-es5.js.map () 15.1 kB  [rendered]
+chunk {30} 30-es5.js, 30-es5.js.map () 15.1 kB  [rendered]
+chunk {31} 31-es5.js, 31-es5.js.map () 15.9 kB  [rendered]
+chunk {32} 32-es5.js, 32-es5.js.map () 15.7 kB  [rendered]
+chunk {33} 33-es5.js, 33-es5.js.map () 31.1 kB  [rendered]
+chunk {34} 34-es5.js, 34-es5.js.map () 30.9 kB  [rendered]
+chunk {35} 35-es5.js, 35-es5.js.map () 42.8 kB  [rendered]
+chunk {36} 36-es5.js, 36-es5.js.map () 46.4 kB  [rendered]
+chunk {37} 37-es5.js, 37-es5.js.map () 14.2 kB  [rendered]
+chunk {38} 38-es5.js, 38-es5.js.map () 13.9 kB  [rendered]
+chunk {39} 39-es5.js, 39-es5.js.map () 40.4 kB  [rendered]
+chunk {40} 40-es5.js, 40-es5.js.map () 40.5 kB  [rendered]
+chunk {41} 41-es5.js, 41-es5.js.map () 16.8 kB  [rendered]
+chunk {42} 42-es5.js, 42-es5.js.map () 16.8 kB  [rendered]
+chunk {43} 43-es5.js, 43-es5.js.map () 45.2 kB  [rendered]
+chunk {44} 44-es5.js, 44-es5.js.map () 22.2 kB  [rendered]
+chunk {45} 45-es5.js, 45-es5.js.map () 21.5 kB  [rendered]
+chunk {46} 46-es5.js, 46-es5.js.map () 12.9 kB  [rendered]
+chunk {47} 47-es5.js, 47-es5.js.map () 12.9 kB  [rendered]
+chunk {48} 48-es5.js, 48-es5.js.map () 15 kB  [rendered]
+chunk {49} 49-es5.js, 49-es5.js.map () 15.2 kB  [rendered]
+chunk {50} 50-es5.js, 50-es5.js.map () 23.6 kB  [rendered]
+chunk {51} 51-es5.js, 51-es5.js.map () 25 kB  [rendered]
+chunk {52} 52-es5.js, 52-es5.js.map () 21.2 kB  [rendered]
+chunk {53} 53-es5.js, 53-es5.js.map () 21.2 kB  [rendered]
+chunk {54} 54-es5.js, 54-es5.js.map () 14.8 kB  [rendered]
+chunk {55} 55-es5.js, 55-es5.js.map () 14.8 kB  [rendered]
+chunk {56} 56-es5.js, 56-es5.js.map () 7.88 kB  [rendered]
+chunk {57} 57-es5.js, 57-es5.js.map () 32.8 kB  [rendered]
+chunk {58} 58-es5.js, 58-es5.js.map () 27.9 kB  [rendered]
+chunk {59} 59-es5.js, 59-es5.js.map () 25.5 kB  [rendered]
+chunk {60} 60-es5.js, 60-es5.js.map () 17.2 kB  [rendered]
+chunk {61} 61-es5.js, 61-es5.js.map () 16.8 kB  [rendered]
+chunk {62} 62-es5.js, 62-es5.js.map () 27 kB  [rendered]
+chunk {63} 63-es5.js, 63-es5.js.map () 27 kB  [rendered]
+chunk {64} 64-es5.js, 64-es5.js.map () 47.2 kB  [rendered]
+chunk {65} 65-es5.js, 65-es5.js.map () 47.2 kB  [rendered]
+chunk {66} 66-es5.js, 66-es5.js.map () 10.9 kB  [rendered]
+chunk {67} 67-es5.js, 67-es5.js.map () 7.75 kB  [rendered]
+chunk {68} 68-es5.js, 68-es5.js.map () 7.75 kB  [rendered]
+chunk {69} 69-es5.js, 69-es5.js.map () 16 kB  [rendered]
+chunk {70} 70-es5.js, 70-es5.js.map () 16.2 kB  [rendered]
+chunk {71} 71-es5.js, 71-es5.js.map () 2.06 kB  [rendered]
+chunk {72} 72-es5.js, 72-es5.js.map () 13.9 kB  [rendered]
+chunk {73} 73-es5.js, 73-es5.js.map () 13.9 kB  [rendered]
+chunk {74} 74-es5.js, 74-es5.js.map () 20.8 kB  [rendered]
+chunk {75} 75-es5.js, 75-es5.js.map () 21.3 kB  [rendered]
+chunk {76} 76-es5.js, 76-es5.js.map () 12.9 kB  [rendered]
+chunk {77} 77-es5.js, 77-es5.js.map () 12.8 kB  [rendered]
+chunk {78} 78-es5.js, 78-es5.js.map () 23.3 kB  [rendered]
+chunk {common} common-es5.js, common-es5.js.map (common) 14.7 kB  [rendered]
+chunk {cordova} cordova.js, cordova.js.map (cordova) 63.5 kB [entry] [rendered]
+chunk {core-js-js} core-js-js-es5.js, core-js-js-es5.js.map (core-js-js) 78.7 kB  [rendered]
+chunk {css-shim-206ea950-3169f23e-js} css-shim-206ea950-3169f23e-js-es5.js, css-shim-206ea950-3169f23e-js-es5.js.map (css-shim-206ea950-3169f23e-js) 21.9 kB  [rendered]
+chunk {dom-96781eef-a2fb04dd-js} dom-96781eef-a2fb04dd-js-es5.js, dom-96781eef-a2fb04dd-js-es5.js.map (dom-96781eef-a2fb04dd-js) 27.7 kB  [rendered]
+chunk {dom-js} dom-js-es5.js, dom-js-es5.js.map (dom-js) 20.2 kB  [rendered]
+chunk {focus-visible-70713a0c-js} focus-visible-70713a0c-js-es5.js, focus-visible-70713a0c-js-es5.js.map (focus-visible-70713a0c-js) 2.2 kB  [rendered]
+chunk {hardware-back-button-5afe3cb0-js} hardware-back-button-5afe3cb0-js-es5.js, hardware-back-button-5afe3cb0-js-es5.js.map (hardware-back-button-5afe3cb0-js) 2.88 kB  [rendered]
+chunk {index-69c37885-js} index-69c37885-js-es5.js, index-69c37885-js-es5.js.map (index-69c37885-js) 41.9 kB  [rendered]
+chunk {input-shims-a4fc53ac-js} input-shims-a4fc53ac-js-es5.js, input-shims-a4fc53ac-js-es5.js.map (input-shims-a4fc53ac-js) 13.5 kB  [rendered]
+chunk {ios-transition-071bd421-js} ios-transition-071bd421-js-es5.js, ios-transition-071bd421-js-es5.js.map (ios-transition-071bd421-js) 26.6 kB  [rendered]
+chunk {main} main-es5.js, main-es5.js.map (main) 23.7 kB [initial] [rendered]
+chunk {md-transition-15a81b08-js} md-transition-15a81b08-js-es5.js, md-transition-15a81b08-js-es5.js.map (md-transition-15a81b08-js) 3.91 kB  [rendered]
+chunk {pages-contact-details-contact-details-module} pages-contact-details-contact-details-module-es5.js, pages-contact-details-contact-details-module-es5.js.map (pages-contact-details-contact-details-module) 9.73 kB  [rendered]
+chunk {pages-contact-list-contact-list-module} pages-contact-list-contact-list-module-es5.js, pages-contact-list-contact-list-module-es5.js.map (pages-contact-list-contact-list-module) 8.6 kB  [rendered]
+chunk {polyfills} polyfills-es5.js, polyfills-es5.js.map (polyfills) 645 kB [initial] [rendered]
+chunk {runtime} runtime-es5.js, runtime-es5.js.map (runtime) 9.85 kB [entry] [rendered]
+chunk {shadow-css-4889ae62-23996f3f-js} shadow-css-4889ae62-23996f3f-js-es5.js, shadow-css-4889ae62-23996f3f-js-es5.js.map (shadow-css-4889ae62-23996f3f-js) 15.7 kB  [rendered]
+chunk {status-tap-a0df8284-js} status-tap-a0df8284-js-es5.js, status-tap-a0df8284-js-es5.js.map (status-tap-a0df8284-js) 1.83 kB  [rendered]
+chunk {styles} styles-es5.js, styles-es5.js.map (styles) 109 kB [initial] [rendered]
+chunk {swipe-back-35ad8e37-js} swipe-back-35ad8e37-js-es5.js, swipe-back-35ad8e37-js-es5.js.map (swipe-back-35ad8e37-js) 2.68 kB  [rendered]
+chunk {swiper-bundle-ccdaac54-js} swiper-bundle-ccdaac54-js-es5.js, swiper-bundle-ccdaac54-js-es5.js.map (swiper-bundle-ccdaac54-js) 210 kB  [rendered]
+chunk {tap-click-ca00ce7f-js} tap-click-ca00ce7f-js-es5.js, tap-click-ca00ce7f-js-es5.js.map (tap-click-ca00ce7f-js) 6.32 kB  [rendered]
+chunk {vendor} vendor-es5.js, vendor-es5.js.map (vendor) 4.59 MB [initial] [rendered]
+Date: 2019-11-22T14:48:52.662Z - Hash: 03f1f8b8245f88b3774a - Time: 29258ms
+> cordova build android
+Discovered saved plugin "cordova-plugin-whitelist". Adding it to the project
+Installing "cordova-plugin-whitelist" for android
+
+               This plugin is only applicable for versions of cordova-android greater than 4.0. If you have a previous platform version, you do *not* need this plugin since the whitelist will be built in.
+          
+Discovered saved plugin "cordova-plugin-statusbar". Adding it to the project
+Installing "cordova-plugin-statusbar" for android
+Discovered saved plugin "cordova-plugin-device". Adding it to the project
+Installing "cordova-plugin-device" for android
+Discovered saved plugin "cordova-plugin-splashscreen". Adding it to the project
+Installing "cordova-plugin-splashscreen" for android
+Discovered saved plugin "cordova-plugin-ionic-webview". Adding it to the project
+Installing "cordova-plugin-ionic-webview" for android
+Subproject Path: CordovaLib
+Subproject Path: app
+Discovered saved plugin "cordova-plugin-ionic-keyboard". Adding it to the project
+Installing "cordova-plugin-ionic-keyboard" for android
+Checking Java JDK and Android SDK versions
+ANDROID_SDK_ROOT=/Users/david/Library/Android/sdk (recommended setting)
+ANDROID_HOME=/Users/david/Library/Android/sdk (DEPRECATED)
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+BUILD SUCCESSFUL in 10s
+1 actionable task: 1 executed
+Subproject Path: CordovaLib
+Subproject Path: app
+Starting a Gradle Daemon (subsequent builds will be faster)
+> Task :app:preBuild UP-TO-DATE
+> Task :CordovaLib:preBuild UP-TO-DATE
+> Task :CordovaLib:preDebugBuild UP-TO-DATE
+> Task :CordovaLib:checkDebugManifest
+> Task :CordovaLib:processDebugManifest
+> Task :app:preDebugBuild
+> Task :CordovaLib:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :CordovaLib:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :CordovaLib:compileDebugRenderscript
+> Task :CordovaLib:generateDebugBuildConfig
+> Task :CordovaLib:generateDebugResValues
+> Task :CordovaLib:generateDebugResources
+> Task :CordovaLib:packageDebugResources
+> Task :CordovaLib:generateDebugRFile
+> Task :CordovaLib:prepareLintJar
+> Task :CordovaLib:generateDebugSources
+> Task :CordovaLib:javaPreCompileDebug
+> Task :CordovaLib:compileDebugJavaWithJavac
+> Task :CordovaLib:processDebugJavaRes NO-SOURCE
+> Task :CordovaLib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+
+> Task :app:compileDebugJavaWithJavac
+
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :CordovaLib:mergeDebugShaders
+> Task :CordovaLib:compileDebugShaders
+> Task :CordovaLib:generateDebugAssets
+> Task :CordovaLib:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :app:transformDexArchiveWithDexMergerForDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :CordovaLib:compileDebugNdk NO-SOURCE
+> Task :CordovaLib:mergeDebugJniLibFolders
+> Task :CordovaLib:transformNativeLibsWithMergeJniLibsForDebug
+> Task :CordovaLib:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:cdvBuildDebug
+
+BUILD SUCCESSFUL in 38s
+42 actionable tasks: 42 executed
+Built the following apk(s): 
+        /Users/david/WIP/ATIA/address_book/platforms/android/app/build/outputs/apk/debug/app-debug.apk
+
+  ───────────────────────────────────────────────
+
+     Ionic CLI update available: 5.4.6 → 5.4.7
+           Run npm i -g ionic to update
+
+  ───────────────────────────────────────────────
+
+MacBook-Air:address_book david$ cd ../acceptance_test
+MacBook-Air:acceptance_test david$ npm install
+npm WARN ionic-address-book-acceptance-test-suite@1.0.0 No description
+npm WARN ionic-address-book-acceptance-test-suite@1.0.0 No repository field.
+
+removed 147 packages, moved 4 packages and audited 116170 packages in 19.028s
+found 0 vulnerabilities
+
+MacBook-Air:acceptance_test david$ npx appium-doctor
+info AppiumDoctor Appium Doctor v.1.12.1
+info AppiumDoctor ### Diagnostic for necessary dependencies starting ###
+info AppiumDoctor  ✔ The Node.js binary was found at: /Users/david/.nvm/versions/node/v12.7.0/bin/node
+info AppiumDoctor  ✔ Node version is 12.7.0
+info AppiumDoctor  ✔ Xcode is installed at: /Applications/Xcode.app/Contents/Developer
+info AppiumDoctor  ✔ Xcode Command Line Tools are installed in: /Applications/Xcode.app/Contents/Developer
+info AppiumDoctor  ✔ DevToolsSecurity is enabled.
+info AppiumDoctor  ✔ The Authorization DB is set up properly.
+info AppiumDoctor  ✔ Carthage was found at: /usr/local/bin/carthage. Installed version is: 0.34.0
+info AppiumDoctor  ✔ HOME is set to: /Users/david
+info AppiumDoctor  ✔ ANDROID_HOME is set to: /Users/david/Library/Android/sdk
+info AppiumDoctor  ✔ JAVA_HOME is set to: /Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home
+info AppiumDoctor  ✔ adb exists at: /Users/david/Library/Android/sdk/platform-tools/adb
+info AppiumDoctor  ✔ android exists at: /Users/david/Library/Android/sdk/tools/android
+info AppiumDoctor  ✔ emulator exists at: /Users/david/Library/Android/sdk/tools/emulator
+info AppiumDoctor  ✔ Bin directory of $JAVA_HOME is set
+info AppiumDoctor ### Diagnostic for necessary dependencies completed, no fix needed. ###
+info AppiumDoctor 
+info AppiumDoctor ### Diagnostic for optional dependencies starting ###
+WARN AppiumDoctor  ✖ opencv4nodejs cannot be found.
+info AppiumDoctor  ✔ ffmpeg is installed at: /usr/local/bin/ffmpeg. ffmpeg version 4.1 Copyright (c) 2000-2018 the FFmpeg developers
+WARN AppiumDoctor  ✖ mjpeg-consumer cannot be found.
+WARN AppiumDoctor  ✖ idb and idb_companion are not installed
+WARN AppiumDoctor  ✖ applesimutils cannot be found
+WARN AppiumDoctor  ✖ bundletool.jar cannot be found
+info AppiumDoctor ### Diagnostic for optional dependencies completed, 5 fixes possible. ###
+info AppiumDoctor 
+info AppiumDoctor ### Optional Manual Fixes ###
+info AppiumDoctor The configuration can install optionally. Please do the following manually:
+WARN AppiumDoctor  ➜ Why opencv4nodejs is needed and how to install it: https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/image-comparison.md
+WARN AppiumDoctor  ➜ mjpeg-consumer module is required to use MJPEG-over-HTTP features. Please install it with 'npm i -g mjpeg-consumer'.
+WARN AppiumDoctor  ➜ Why idb is needed and how to install it: https://github.com/appium/appium-idb
+WARN AppiumDoctor  ➜ Why applesimutils is needed and how to install it: http://appium.io/docs/en/drivers/ios-xcuitest/
+WARN AppiumDoctor  ➜ bundletool.jar is used to handle Android App Bundle. Please read http://appium.io/docs/en/writing-running-appium/android/android-appbundle/ to install it
+info AppiumDoctor 
+info AppiumDoctor ###
+info AppiumDoctor 
+info AppiumDoctor Bye! Run appium-doctor again when all manual fixes have been applied!
+info AppiumDoctor 
+MacBook-Air:Acceptance-Testing-Flutter-Apps david$ cd ../Acceptance-Testing-Ionic-Apps/acceptance_test/
+MacBook-Air:acceptance_test david$ npx appium
+^C
+MacBook-Air:acceptance_test david$ npm test
+
+> ionic-address-book-acceptance-test-suite@1.0.0 test /Users/david/WIP/Acceptance-Testing-Ionic-Apps/acceptance_test
+> wdio run wdio.conf.js
+
+
+Execution of 1 spec files started at 2019-11-22T14:52:24.903Z
+
+2019-11-22T14:52:24.983Z INFO @wdio/cli:launcher: Run onPrepare hook
+2019-11-22T14:52:24.992Z INFO @wdio/local-runner: Start worker 0-0 with arg: run,wdio.conf.js
+[0-0] 2019-11-22T14:52:25.411Z INFO @wdio/local-runner: Run worker command: run
+[0-0] RUNNING in ../address_book/platforms/android/app/build/outputs/apk/debug/app-debug.apk - /tests/specs/button.js
+[0-0] 2019-11-22T14:52:25.556Z INFO webdriverio: Initiate new session using the webdriver protocol
+[0-0] 2019-11-22T14:52:25.560Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session
+[0-0] 2019-11-22T14:52:25.561Z INFO webdriver: DATA {
+  capabilities: {
+    alwaysMatch: {
+      platformName: 'Android',
+      platformVersion: '7',
+      deviceName: 'any',
+      app: '../address_book/platforms/android/app/build/outputs/apk/debug/app-debug.apk',
+      autoWebview: true,
+      autoGrantPermissions: true
+    },
+    firstMatch: [ {} ]
+  },
+  desiredCapabilities: {
+    platformName: 'Android',
+    platformVersion: '7',
+    deviceName: 'any',
+    app: '../address_book/platforms/android/app/build/outputs/apk/debug/app-debug.apk',
+    autoWebview: true,
+    autoGrantPermissions: true
+  }
+}
+[0-0] 2019-11-22T14:52:46.929Z INFO webdriver: COMMAND setTimeouts(5000, undefined, undefined)
+[0-0] 2019-11-22T14:52:46.930Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/ca1a191b-7224-45f8-a9b0-09b3e8ad9ddb/timeouts
+[0-0] 2019-11-22T14:52:46.930Z INFO webdriver: DATA { implicit: 5000 }
+[0-0] 2019-11-22T14:52:46.934Z INFO webdriver: COMMAND findElement("css selector", "#ion-item-1")
+[0-0] 2019-11-22T14:52:46.934Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/ca1a191b-7224-45f8-a9b0-09b3e8ad9ddb/element
+[0-0] 2019-11-22T14:52:46.934Z INFO webdriver: DATA { using: 'css selector', value: '#ion-item-1' }
+[0-0] 2019-11-22T14:52:47.167Z INFO webdriver: RESULT {
+  ELEMENT: '12c5838c-4d34-4c3e-bdf0-6c2371ed297e',
+  'element-6066-11e4-a52e-4f735466cecf': '12c5838c-4d34-4c3e-bdf0-6c2371ed297e'
+}
+[0-0] 2019-11-22T14:52:47.182Z INFO webdriver: COMMAND elementClick("12c5838c-4d34-4c3e-bdf0-6c2371ed297e")
+[0-0] 2019-11-22T14:52:47.183Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/ca1a191b-7224-45f8-a9b0-09b3e8ad9ddb/element/12c5838c-4d34-4c3e-bdf0-6c2371ed297e/click
+[0-0] 2019-11-22T14:52:47.526Z INFO webdriver: COMMAND findElement("css selector", "#contactName")
+[0-0] 2019-11-22T14:52:47.526Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/ca1a191b-7224-45f8-a9b0-09b3e8ad9ddb/element
+[0-0] 2019-11-22T14:52:47.527Z INFO webdriver: DATA { using: 'css selector', value: '#contactName' }
+[0-0] 2019-11-22T14:52:47.691Z INFO webdriver: RESULT {
+  ELEMENT: '619b7759-7b37-4662-8ca6-5c6104177ecc',
+  'element-6066-11e4-a52e-4f735466cecf': '619b7759-7b37-4662-8ca6-5c6104177ecc'
+}
+[0-0] 2019-11-22T14:52:47.697Z INFO webdriver: COMMAND getElementText("619b7759-7b37-4662-8ca6-5c6104177ecc")
+[0-0] 2019-11-22T14:52:47.697Z INFO webdriver: [GET] http://127.0.0.1:4723/wd/hub/session/ca1a191b-7224-45f8-a9b0-09b3e8ad9ddb/element/619b7759-7b37-4662-8ca6-5c6104177ecc/text
+[0-0] 2019-11-22T14:52:47.812Z INFO webdriver: RESULT David MacCallum
+[0-0] 2019-11-22T14:52:47.817Z INFO webdriver: COMMAND deleteSession()
+[0-0] 2019-11-22T14:52:47.817Z INFO webdriver: [DELETE] http://127.0.0.1:4723/wd/hub/session/ca1a191b-7224-45f8-a9b0-09b3e8ad9ddb
+[0-0] PASSED in ../address_book/platforms/android/app/build/outputs/apk/debug/app-debug.apk - /tests/specs/button.js
+2019-11-22T14:52:48.891Z INFO @wdio/cli:launcher: Run onComplete hook
+
+ "spec" Reporter:
+------------------------------------------------------------------
+[FUH7N16928001570 LINUX 7.0 #0-0] Spec: /Users/david/WIP/Acceptance-Testing-Ionic-Apps/acceptance_test/tests/specs/button.js
+[FUH7N16928001570 LINUX 7.0 #0-0] Running: FUH7N16928001570 on LINUX 7.0 executing ../address_book/platforms/android/app/build/outputs/apk/debug/app-debug.apk
+[FUH7N16928001570 LINUX 7.0 #0-0]
+[FUH7N16928001570 LINUX 7.0 #0-0] Toggle Button
+[FUH7N16928001570 LINUX 7.0 #0-0]    ✓ should navigate from contact list to detail view
+[FUH7N16928001570 LINUX 7.0 #0-0]
+[FUH7N16928001570 LINUX 7.0 #0-0] 1 passing (1.9s)
+
+
+Spec Files:      1 passed, 1 total (100% completed) in 00:00:23 
+
+2019-11-22T14:52:48.892Z INFO @wdio/local-runner: Shutting down spawned worker
+2019-11-22T14:52:49.145Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
+2019-11-22T14:52:49.145Z INFO @wdio/local-runner: shutting down
+MacBook-Air:acceptance_test david$
