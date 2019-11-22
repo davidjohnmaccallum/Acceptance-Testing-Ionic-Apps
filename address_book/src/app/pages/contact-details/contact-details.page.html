@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>contact-details</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row class="topSection">
+      <ion-img [src]="contact.image"></ion-img>
+      <span id="contactName" class="contactName">{{contact.name}}</span>
+    </ion-row>
+    <ion-row>
+      <ion-item>{{contact.mobile}}</ion-item>
+    </ion-row>
+    <ion-row>
+      <ion-item>{{contact.email}}</ion-item>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>contact-list</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item id="ion-item-{{contact.id}}" class="ion-activatable" (click)="contactClicked(contact)" [routerLink]="['/contact-details', contact.id]" *ngFor="let contact of contacts">
+      <ion-ripple-effect></ion-ripple-effect>
+      <ion-avatar slot="start">
+        <ion-img [src]="contact.image"></ion-img>
+      </ion-avatar>
+      <ion-label>{{contact.name}}</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
