@@ -1,6 +1,6 @@
 # Acceptance Testing Ionic Apps
 
-I am exploring the options available for automating acceptance testing of mobile apps. At Centbee we use Ionic for our app development so I thought I would start here.
+I am exploring the options available for automatic acceptance testing of mobile apps. At Centbee we use Ionic for our app development so I thought I would start here.
 
 I used Appium and webdriver.io as the testing framework. It is important to take the time to understand [Appium](http://appium.io/) (and [Selenium](https://selenium.dev/)) before you start. Appium is a tool that allows you to "drive" a mobile app through scripts. This allows you to simulate a human tester and create automated acceptance tests. Selenium is the predecessor of Appium and does the same job for web apps. 
 
